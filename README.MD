@@ -1,6 +1,6 @@
 # To-Do List
 
-Este é um simples aplicativo de lista de tarefas (To-Do List) onde você pode adicionar, editar, remover e marcar tarefas como concluídas. As tarefas são armazenadas no `localStorage`, o que significa que suas tarefas serão persistidas mesmo após o fechamento do navegador.
+Este é uma simples lista de tarefas (To-Do List) onde você pode adicionar, editar, remover e marcar tarefas como concluídas. As tarefas são armazenadas no `localStorage`, o que significa que suas tarefas serão persistidas mesmo após o fechamento do navegador.
 
 ## Funcionalidades
 
