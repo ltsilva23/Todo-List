@@ -35,7 +35,7 @@ Este é uma simples lista de tarefas (To-Do List) onde você pode adicionar, edi
 
 # Tela Inicial
 
-Aqui está uma captura da tela inicial do aplicativo To-Do List, onde você pode adicionar, editar e gerenciar suas tarefas:
+Aqui está uma captura da tela inicial do To-Do List, onde você pode adicionar, editar e gerenciar suas tarefas:
 
 ![Tela inicial do To-Do List](img/tela-inicial.png)
 
