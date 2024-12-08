@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+main {
+    flex: 1;
+}
+
+main form {
+    display: flex;
+    flex-direction: column; /* Alinha os campos verticalmente */
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  main h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+    color: #243cc0;
+  }
+  
+  main form input, main form textarea, main form button {
+    width: 20rem;
+    text-align: center;
+    align-self: center;
+    padding: 1rem;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+    border: 1px solid #333;
+  }
+  
+  main form textarea {
+    resize: none;
+    min-height: 2rem;
+  }
+  
+  header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Efeito de hover nos botões */
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo para o ícone de editar */
+button i {
+    font-size: 1.8rem;
+}
+
+/* Ícone de editar (alterando a cor para laranja) */
+button.edit i {
+    color: #ff9900;
+}
+
+/* Estilo do botão de editar e remover */
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color: #ff4d4d;
+    font-size: 1.8rem;
+    margin-left: 10px;
+}
+
+/* Efeito de hover nos botões */
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo para o ícone de editar */
+button i {
+    font-size: 1.8rem;
+}
+
+/* Lista de tarefas */
+#todo-list {
+    margin-top: 2rem; /* Garante que a lista de tarefas tenha espaçamento de cima */
+}
+
+/* Estilo da lista de tarefas */
+li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between; /* Isso garante que os itens se distribuam bem */
+    align-items: center; /* Alinha verticalmente todos os itens no centro */
+}
+
+/* Estilo do botão de editar e remover */
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color: #ff4d4d;
+    font-size: 1.8rem;
+    margin-left: 10px;
+}
+
+
+/* Estilo do texto da tarefa */
+span {
+    font-size: 1.6rem;
+    margin-left: 10px;
+}
+
+/* Estilo do checkbox */
+input[type="checkbox"] {
+    margin-right: 15px;
+}
+
+/* Media Queries para telas pequenas */
+@media (max-width: 768px) {
+    main form input, main form textarea, main form button {
+         main form input, main form textarea, main form button {
+        width: 100%; /* Garante que os campos do formulário ocupem 100% da largura disponível */
+    }
+
+    }
+
+    li {
+        flex-direction: column; /* Empilha todos os itens por padrão */
+        align-items: flex-start; /* Alinha todos os itens à esquerda */
+        margin-bottom: 10px; /* Diminui a margem entre as tarefas */
+    }
+
+    /* Nome da tarefa ao lado do checkbox */
+    .task-header {
+        display: flex;
+        flex-direction: row; /* Alinha o título da tarefa ao lado do checkbox */
+        align-items: center; /* Alinha verticalmente */
+        width: 100%;
+        justify-content: flex-start; /* Alinha o título à direita e o checkbox à esquerda */
+    }
+
+    .task-header span {
+        margin-left: 10px; /* Adiciona um pequeno espaço à esquerda do título */
+    }
+
+    .dates {
+        margin-top: 10px; /* Dá um espaçamento entre a data e os outros elementos */
+    }
+
+    .buttonDiv {
+        width: 100%;
+        justify-content: space-between; /* Alinha os botões ao longo da largura disponível */
+        margin-top: 10px;
+    }
+
+    input[type="checkbox"] {
+        margin-right: 10px; /* Adiciona um pequeno espaço entre o checkbox e o título */
+    }
+
+    /* Títulos e texto ajustados para telas menores */
+    main h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Media Queries para telas muito pequenas (dispositivos móveis) */
+@media (max-width: 480px) {
+    main h1 {
+        font-size: 1.6rem; /* Diminui o tamanho do título */
+    }
+
+    main form input, main form textarea, main form button {
+        width: 90%; /* Ajusta a largura do formulário para 90% da tela */
+        padding: 0.8rem; /* Diminui o padding */
+        font-size: 1.4rem; /* Diminui o tamanho da fonte */
+    }
+
+    li {
+        margin-bottom: 10px; /* Diminui a margem entre as tarefas */
+    }
+
+    .buttonDiv {
+        flex-direction: column; /* Empilha os botões verticalmente */
+        gap: 5px;
+    }
+
+    button {
+        font-size: 1.6rem; /* Ajusta o tamanho dos botões */
+        padding: 8px;
+    }
+}
