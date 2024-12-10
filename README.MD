@@ -2,6 +2,11 @@
 
 Este é uma simples lista de tarefas (To-Do List) onde você pode adicionar, editar, remover e marcar tarefas como concluídas. As tarefas são armazenadas no `localStorage`, o que significa que suas tarefas serão persistidas mesmo após o fechamento do navegador.
 
+
+## Veja o Andamento do Projeto
+Você pode ver o andamento do projeto acessando o link abaixo:
+[Todo List](https://focus-list1.netlify.app/)
+
 ## Funcionalidades
 
 - **Adicionar tarefas**: Você pode adicionar novas tarefas com título, descrição e datas de início e término.
