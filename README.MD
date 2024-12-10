@@ -4,7 +4,7 @@ Este é uma simples lista de tarefas (To-Do List) onde você pode adicionar, edi
 
 
 ## Veja o Andamento do Projeto
-Você pode ver o andamento do projeto acessando o link abaixo:
+Você pode ver o projeto acessando o link abaixo:
 [Todo List](https://focus-list1.netlify.app/)
 
 ## Funcionalidades
